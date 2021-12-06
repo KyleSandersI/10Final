@@ -10,7 +10,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 
 #df = pd.read_csv('/Users/kylesanders/Documents/Math 10/EPL_20_21.csv')
-df = pd.read_csv("/Users/kylesanders/Documents/GitHub/kylesandersi.github.io/EPL_20_21.csv")
+df = pd.read_csv("EPL_20_21.csv")
 df = df[df["Matches"]>5]
 df["G/A"] = (df["Goals"] + df["Assists"]) / df["Matches"]
 
