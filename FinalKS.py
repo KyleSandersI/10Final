@@ -140,7 +140,6 @@ with st.expander("See Additional Material"):
     """)
 
 from sklearn.linear_model import LinearRegression
-import matplotlib.pyplot as plt
 reg = LinearRegression()
 reg = LinearRegression(fit_intercept=False)
 import sklearn.linear_model
