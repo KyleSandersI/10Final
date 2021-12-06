@@ -159,6 +159,7 @@ st.caption("Estimating a players possible production across a season can be diff
 sc_plot = alt.Chart(df).mark_point().encode(
     y = "G/A",
     x ="Mins",
+    color = "rainbow",
     tooltip = ["G/A","Age","Name","Club"]
 ).properties (
     width = 800,
