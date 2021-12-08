@@ -177,5 +177,8 @@ st.altair_chart(LinReg_Chart, use_container_width=True)
 st.write("Attached Below is my Github")
 st.write("https://github.com/KyleSandersI", unsafe_allow_html = True)
 
+st.write("https://datavizpyr.com/scatter-plot-with-regression-line-using-altair-in-python/" , unsafe_allow_html = True)
+st.caption("Attached is the resource used for the linear regression portion of my project")
+st.caption("Additional resources used for expanded ideas came from Pandas, Altair and Streamlit Documentation guides on their own websites")
 
 
